@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Lutemon"
+        android:onClick="openCreateLutemon" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:onClick="openHome"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnTraining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Training"
+        android:onClick="openTraining"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnBattle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Battle"
+        android:onClick="openBattle"
+        android:layout_marginTop="12dp" />
+
+
+
+</LinearLayout>
